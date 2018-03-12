@@ -102,7 +102,7 @@ Write a program that **reads an array of integers** from the console and **set o
 | 2 2 4 2 4add 1 4sumPairsprint | [6, 6, 6] |
 | 1 2 1 2 1 2 1 2 1 2 1 2sumPairssumPairsaddMany 0 -1 -2 -3print | [-1, -2, -3, 6, 6, 6] |
 
-1. 6.Sum Reversed Numbers
+# 1. 6.Sum Reversed Numbers
 
 Write a program that reads sequence of numbers, reverses their digits, and prints their sum.
 
@@ -114,7 +114,7 @@ Write a program that reads sequence of numbers, reverses their digits, and print
 | 12 12 34 84 66 12 | 220 | 21 + 21 + 43+ 48 + 66 + 21 = 220 |
 | 120 1200 12000 | 63 | 21 + 21 + 21 = 63 |
 
-1. 7.Bomb Numbers
+# 1. 7.Bomb Numbers
 
 Write a program that **reads sequence of numbers** and **special bomb number** with a certain **power**. Your task is to **detonate every occurrence of the special bomb number** and according to its power **his neighbors from left and right**. Detonations are performed from left to right and all detonated numbers disappear. Finally print the **sum of the remaining elements** in the sequence.
 
