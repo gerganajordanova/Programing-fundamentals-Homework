@@ -127,7 +127,3 @@ Write a program that **reads sequence of numbers** and **special bomb number** w
 | 177 1 2 37 1 | 6 | Detonations are performed from left to right. We could not detonate the second occurance of 7 because its already destroyed by the first occurance. The numbers [1, 2, 3] survive. Their sum is 6. |
 | 1 121 1 121 1 12 1 | 4 | The red and yellow numbers disappear in two sequential detonations. The result is the sequence [1, 1, 1, 1]. Sum = 4. |
 Rendered
-1.Exercises: Lists
-Problems for exercises and homework for the "Programming Fundamentals" course @ SoftUni.
-
-You can check your solutions here: https://judge.softuni.bg/Contests/398/Lists-Exercises.
