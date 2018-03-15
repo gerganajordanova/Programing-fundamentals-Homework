@@ -10,9 +10,9 @@ Write a program that receives some info from the console about **people** and th
 
 On each line, you will receive some of the following commands:
 
-- **A {name} {phone}** ñ adds entry to the phonebook. In case of trying to add a name that is already in the phonebook you should change the existing phone number with the new one provided.
-- **S {name}** ñ searches for a contact by given name and prints it in format &quot; **{name} -&gt; {number}**&quot;. In case the contact isn&#39;t found, print &quot; **Contact {name} does not exist.**&quot;.
-- **END** ñ stop receiving more commands.
+- **A {name} {phone}** ‚Äì adds entry to the phonebook. In case of trying to add a name that is already in the phonebook you should change the existing phone number with the new one provided.
+- **S {name}** ‚Äì searches for a contact by given name and prints it in format &quot; **{name} -&gt; {number}**&quot;. In case the contact isn&#39;t found, print &quot; **Contact {name} does not exist.**&quot;.
+- **END** ‚Äì stop receiving more commands.
 
 ## Examples
 
@@ -43,13 +43,13 @@ On each line, you will receive some of the following commands:
 2. **Variant II (faster):** Keep the entries in more appropriate data structure that will keep them in sorted order for better performance.
 ## 3.A Miner Task
 
-You are given a sequence of strings, each on a new line. Every odd line on the console is representing a resource (e.g. Gold, Silver, Copper, and so on), and every even ñ quantity. Your task is to collect the resources and print them each on a new line.
+You are given a sequence of strings, each on a new line. Every odd line on the console is representing a resource (e.g. Gold, Silver, Copper, and so on), and every even ‚Äì quantity. Your task is to collect the resources and print them each on a new line.
 
 **Print the resources and their quantities in format:**
 
-**{resource} ñ&gt; {quantity}**
+**{resource} ‚Äì&gt; {quantity}**
 
-The quantities inputs will be in the range [1 Ö 2 000 000 000]
+The quantities inputs will be in the range [1 ‚Ä¶ 2 000 000 000]
 
 ## Examples
 
@@ -61,7 +61,7 @@ The quantities inputs will be in the range [1 Ö 2 000 000 000]
 
 You are given a sequence of strings, each on a new line, **until you receive the &quot;stop&quot; command**. The first string is the **name** of a person. On the second line, you will receive their **email**. Your task is to **collect** their **names** and **emails** , and **remove** emails whose domain **ends with**&quot; **us**&quot; or &quot; **uk**&quot; (case insensitive). Print:
 
-**{name} ñ &gt; {email}**
+**{name} ‚Äì &gt; {email}**
 
 ## Examples
 
@@ -73,7 +73,7 @@ You are given a sequence of strings, each on a new line, **until you receive the
 
 You are given a sequence of people and for every person what cards he draws from the deck. The input will be separate lines in the format:
 
-- {personName}: {PT, PT, PT,Ö PT}
+- {personName}: {PT, PT, PT,‚Ä¶ PT}
 
 Where **P (2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A**) is the power of the card and **T (S, H, D, C)** is the type. The input ends when a **&quot;JOKER&quot;** is drawn. The name can contain any ASCII symbol except **&#39;:&#39;**. The input will always be valid and in the format described, there is no need to check it.
 
@@ -125,7 +125,7 @@ For every user found, you have to display each log in the format:
 
 **username:**
 
-**IP =&gt; count, IP =&gt; countÖ**
+**IP =&gt; count, IP =&gt; count‚Ä¶**
 
 The IP addresses must be split with a comma, and each line of IP addresses must end with a dot.
 
@@ -168,9 +168,9 @@ If two countries/cities have the same population, keep them **in the order in wh
 ## Constraints
 
 - The name of the city, country and the population count will be separated from each other by **a pipe (&#39;|&#39;)**.
-- The **number of input lines** will be in the range [2 Ö 50].
+- The **number of input lines** will be in the range [2 ‚Ä¶ 50].
 - A city-country pair will not be repeated.
-- The **population count** of each city will be an integer in the range [0 Ö 2 000 000 000].
+- The **population count** of each city will be an integer in the range [0 ‚Ä¶ 2 000 000 000].
 - Allowed working time for your program: 0.1 seconds. Allowed memory: 16 MB.
 
 ## Examples
@@ -200,7 +200,7 @@ Write a program to aggregate the logs data and print **for each user** the **tot
 # 1
 **&gt;, &lt;IP**
 # 2
-**&gt;, Ö]**&quot;. Order the **users alphabetically**. Order the **IPs alphabetically**. In our example, the output should be the following:
+**&gt;, ‚Ä¶]**&quot;. Order the **users alphabetically**. Order the **IPs alphabetically**. In our example, the output should be the following:
 - alex: 62 [10.10.17.33, 212.50.118.81]
 - peter: 303 [10.10.17.34, 10.10.17.35, 192.168.0.11]
 
@@ -215,13 +215,13 @@ Print **one line for each user** (order users alphabetically). For each user pri
 # 1
 **&gt;, &lt;IP**
 # 2
-**&gt;, Ö]**. Remove any duplicated values in the IP addresses and order them alphabetically (like we order strings).
+**&gt;, ‚Ä¶]**. Remove any duplicated values in the IP addresses and order them alphabetically (like we order strings).
 ### Constraints
 
-- The **count** of the order lines **n** is in the range [1Ö1000].
-- The **&lt;IP&gt;** is a standard IP address in format **a.b.c.d** where **a** , **b** , **c** and **d** are integers in the range [0Ö255].
-- The **&lt;user&gt;** consists of only of **Latin characters** , with length of [1Ö20].
-- The **&lt;duration&gt;** is an integer number in the range [1Ö1000].
+- The **count** of the order lines **n** is in the range [1‚Ä¶1000].
+- The **&lt;IP&gt;** is a standard IP address in format **a.b.c.d** where **a** , **b** , **c** and **d** are integers in the range [0‚Ä¶255].
+- The **&lt;user&gt;** consists of only of **Latin characters** , with length of [1‚Ä¶20].
+- The **&lt;duration&gt;** is an integer number in the range [1‚Ä¶1000].
 - Time limit: 0.3 sec. Memory limit: 16 MB.
 
 ## Examples
@@ -233,18 +233,18 @@ Print **one line for each user** (order users alphabetically). For each user pri
 
 ## 9.\* Legendary Farming
 
-You&#39;ve beaten all the content and the last thing left to accomplish is own a legendary item. However, it&#39;s a tedious process and requires quite a bit of farming. Anyway, you are not too pretentious ñ any legendary will do. The possible items are:
+You&#39;ve beaten all the content and the last thing left to accomplish is own a legendary item. However, it&#39;s a tedious process and requires quite a bit of farming. Anyway, you are not too pretentious ‚Äì any legendary will do. The possible items are:
 
-- **Shadowmourne** ñ requires **250 Shards** ;
-- **Valanyr** ñ requires **250 Fragments** ;
-- **Dragonwrath** ñ requires **250 Motes** ;
+- **Shadowmourne** ‚Äì requires **250 Shards** ;
+- **Valanyr** ‚Äì requires **250 Fragments** ;
+- **Dragonwrath** ‚Äì requires **250 Motes** ;
 
 **Shards, Fragments** and **Motes** are the **key materials** , all else is **junk.** You will be given lines of input, such as
 **2 motes 3 ores 15 stones.** Keep track of the **key materials -** the **first** that reaches the **250 mark**** wins **the** race **. At that point, print the corresponding legendary obtained. Then, print the** remaining **shards, fragments, motes, ordered by** quantity **in** descending **order, then by** name **in** ascending **order, each on a new line. Finally, print the collected** junk **items, in** alphabetical** order.
 
 ## Input
 
-- Each line of input is in format **{quantity} {material} {quantity} {material} Ö {quantity} {material}**
+- Each line of input is in format **{quantity} {material} {quantity} {material} ‚Ä¶ {quantity} {material}**
 
 ## Output
 
@@ -273,9 +273,9 @@ You&#39;ve beaten all the content and the last thing left to accomplish is own a
 | --- | --- |
 | 123 silver 6 shards 8 shards 5 motes9 fangs 75 motes 103 MOTES 8 Shards86 Motes 7 stones 19 silver | Dragonwrath obtained!shards: 22motes: 19fragments: 0fangs: 9silver: 123 |
 
-## 10.\*\* —˙·ÒÍÓ Unleashed
+## 10.\*\* √ë√∞√∫√°√±√™√Æ Unleashed
 
-Admit it ñ the —–⁄¡— Œ is your favorite sort of music. You never miss a concert and you have become quite the geek concerning everything involved with —–⁄¡— Œ. You can&#39;t decide between all the singers you know who your favorite one is. One way to find out is to keep statistics of how much money their concerts make. Write a program that does all the boring calculations for you.
+Admit it ‚Äì the √ë√ê√ö√Å√ë√ä√é is your favorite sort of music. You never miss a concert and you have become quite the geek concerning everything involved with √ë√ê√ö√Å√ë√ä√é. You can&#39;t decide between all the singers you know who your favorite one is. One way to find out is to keep statistics of how much money their concerts make. Write a program that does all the boring calculations for you.
 
 On each input line you&#39;ll be given data in format: **&quot;**** singer @venue ticketsPrice ticketsCount ****&quot;**. There will be **no redundant whitespaces anywhere** in the input. Aggregate the data **by venue and by singer**. For each venue, print the singer and the total amount of money his/her concerts have made on a separate line. **Venues** should be kept in the **same order** they were entered; the **singers** should be **sorted by how much money** they have made in **descending order**. If two singers have made the same amount of money, keep them **in the order** in which **they were entered.**
 
@@ -299,9 +299,9 @@ The singer and town name may consist of one to three words.
 
 ## Constraints
 
-- The **number of input lines** will be in the range [2 Ö 50].
-- The **ticket price** will be an integer in the range [0 Ö 200].
-- The **ticket count** will be an integer in the range [0 Ö 100 000]
+- The **number of input lines** will be in the range [2 ‚Ä¶ 50].
+- The **ticket price** will be an integer in the range [0 ‚Ä¶ 200].
+- The **ticket count** will be an integer in the range [0 ‚Ä¶ 100 000]
 - **Singers** and **venues** are case sensitive
 - Allowed working time for your program: 0.1 seconds. Allowed memory: 16 MB.
 
@@ -321,7 +321,7 @@ The singer and town name may consist of one to three words.
 
 ## 11.\*\*\* Dragon Army
 
-Heroes III is the best game ever. Everyone loves it and everyone plays it all the time. Stamat is no exclusion to this rule. His favorite units in the game are all **types** of dragons ñ black, red, gold, azure etcÖ He likes them so much that he gives them **names** and keeps logs of their **stats** : **damage, health** and **armor**. The process of aggregating all the data is quite tedious, so he would like to have a program doing it. Since he is no programmer, it&#39;s your task to help him
+Heroes III is the best game ever. Everyone loves it and everyone plays it all the time. Stamat is no exclusion to this rule. His favorite units in the game are all **types** of dragons ‚Äì black, red, gold, azure etc‚Ä¶ He likes them so much that he gives them **names** and keeps logs of their **stats** : **damage, health** and **armor**. The process of aggregating all the data is quite tedious, so he would like to have a program doing it. Since he is no programmer, it&#39;s your task to help him
 
 You need to categorize dragons by their **type**. For each dragon, identified by **name,** keep information about his **stats.** Type is **preserved** as in the order of input, but dragons are **sorted** alphabetically by name. For each type, you should also print the average **damage** , **health** and **armor** of the dragons. For each dragon, print his own stats.
 
@@ -345,9 +345,9 @@ If the same dragon is added a second time, the new stats should **overwrite** th
 
 ## Constraints
 
-- N is in range [1Ö100]
+- N is in range [1‚Ä¶100]
 - The dragon type and name are one word only, starting with capital letter.
-- Damage health and armor are integers in range [0 Ö 100000] or **null**
+- Damage health and armor are integers in range [0 ‚Ä¶ 100000] or **null**
 
 ## Examples
 
