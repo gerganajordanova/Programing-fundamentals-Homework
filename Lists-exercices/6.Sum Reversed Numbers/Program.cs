@@ -14,11 +14,12 @@ namespace _6.Sum_Reversed_Numbers
             foreach (var num in numbers)
             {
                char [] digits= num.ToCharArray();
-
                 digits=digits.Reverse().ToArray();
                 int number = int.Parse(new string(digits));
                 sumOfdigits += number;
+                
             }
+            
             Console.WriteLine(sumOfdigits);
         }
     }
