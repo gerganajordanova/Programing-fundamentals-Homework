@@ -43,9 +43,9 @@ namespace _1.Phonebook
                 }
                 if (commands[0]=="ListAll")
                 {
-                    foreach (var pair in phonebook)
+                    foreach (var p in phonebook)
                     {
-                        Console.WriteLine($"{pair.Key} -> {pair.Value}");
+                        Console.WriteLine($"{p.Key} -> {p.Value}");
                     }
                 }
                 commands = Console.ReadLine().Split().ToArray();
