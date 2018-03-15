@@ -1,10 +1,10 @@
-﻿# 1.Exercises: Lists
+##Exercises: Lists
 
 Problems for exercises and homework for the [&quot;Programming Fundamentals&quot; course @ SoftUni](https://softuni.bg/courses/programming-fundamentals).
 
 You can check your solutions here: [https://judge.softuni.bg/Contests/398/Lists-Exercises](https://judge.softuni.bg/Contests/398/Lists-Exercises).
 
-# 1. 1.Max Sequence of Equal Elements
+# 1.Max Sequence of Equal Elements
 
 Read a **list of integers** and find the **longest sequence of equal elements**. If several exist, print the **leftmost**.
 
@@ -21,7 +21,7 @@ Read a **list of integers** and find the **longest sequence of equal elements**.
 - Scan positions **p** from left to right and keep the **start** and **length** of the current sequence of equal numbers ending at **p**.
 - Keep also the currently best (longest) sequence ( **bestStart** + **bestLength** ) and update it after each step.
 
-# 1. 2.Change List
+# 2.Change List
 
 Write a program, which reads a **list** of **integers** from the **console** and receives **commands** , which **manipulate** the list. Your program may receive the following commands:
 
@@ -36,7 +36,7 @@ You should stop the program when you receive the command **Odd** or **Even**. If
 | --- | --- | --- | --- | --- |
 | 1 2 3 4 5 5 5 6Delete 5Insert 10 1Delete 5Odd | 1 3 |   | 20 12 4 319 21 31234 2 41 23 4Insert 50 2Insert 50 5Delete 4Even | 20 12 50 50 31234 2 |
 
-# 1. 3.Search for a Number
+# 3.Search for a Number
 
 On the **first**** line **, you will receive a** list **of** integers **. On the** next **line, you will receive an** array **with exactly** three ****numbers**. **First** number represents the **number** of **elements** you have to **take** from the **list** ( **starting** from the **first**** one**).**Second **number represents the** number **of** elements **you have to** delete**from the numbers you took (**starting **from the** first ****one** ). **Last**** number **is the** number **we search in our** collection **after the manipulations. If it is present print: &quot;** YES! **&quot;, otherwise print &quot;** NO!**&quot;.
 
@@ -46,7 +46,7 @@ On the **first**** line **, you will receive a** list **of** integers **. On the
 | --- | --- | --- | --- | --- |
 | 1 2 3 4 5 65 2 3 | YES! | 12 412 123 21 654 34 65 3 237 4 21 | NO! |
 
-# 1. 4.\*\* Longest Increasing Subsequence (LIS)
+# 4.\*\* Longest Increasing Subsequence (LIS)
 
 Read a **list of integers** and find the **longest increasing subsequence** (LIS). If several such exist, print the **leftmost**.
 
@@ -79,7 +79,7 @@ Read a **list of integers** and find the **longest increasing subsequence** (LIS
 | prev[] | -1 | 0 | 0 | 2 | 3 | 2 | 5 | 6 | 7 | 7 | -1 |
 | LIS | {3} | {3,14} | {3,5} | {3,5,12} | {3,5,12,15} | {3,5,7} | {3,5,7,8} | {3,5,7,8,9} | {3,5,7,8,9,11} | {3,5,7,8,9,10} | {1} |
 
-# 1. 5.\* Array Manipulator
+# 5.\* Array Manipulator
 
 Write a program that **reads an array of integers** from the console and **set of commands** and **executes them over the array**. The commands are as follows:
 
@@ -102,7 +102,7 @@ Write a program that **reads an array of integers** from the console and **set o
 | 2 2 4 2 4add 1 4sumPairsprint | [6, 6, 6] |
 | 1 2 1 2 1 2 1 2 1 2 1 2sumPairssumPairsaddMany 0 -1 -2 -3print | [-1, -2, -3, 6, 6, 6] |
 
-# 1. 6.Sum Reversed Numbers
+# 6.Sum Reversed Numbers
 
 Write a program that reads sequence of numbers, reverses their digits, and prints their sum.
 
