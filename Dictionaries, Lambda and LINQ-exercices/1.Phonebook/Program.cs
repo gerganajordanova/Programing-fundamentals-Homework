@@ -34,7 +34,8 @@ namespace _1.Phonebook
                         foreach (var n in phonebook.Where(x=>x.Key==name))
                         { 
                         Console.WriteLine($"{n.Key} -> {n.Value}");
-                    }}
+                    }
+                         }
                     else
                     {
                         Console.WriteLine($"Contact {name} does not exist.");
