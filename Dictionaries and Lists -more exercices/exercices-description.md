@@ -1,4 +1,4 @@
-# Problem 1.More Exercises: Dictionaries and Lists
+# More Exercises: Dictionaries and Lists
 
 Problems for exercises and homework for the [&quot;Programming Fundamentals&quot; course @ SoftUni](https://softuni.bg/courses/programming-fundamentals).
 
@@ -157,7 +157,7 @@ After you execute all of the commands, **print** all the currently **registered 
 
 ### Input
 
-- First line: **n** – **number of commands** – **integer**
+- First line: **n** Â– **number of commands** Â– **integer**
 - Next **n** lines: **commands** in one of **two** possible formats:
   - Register: &quot; **register {username} {licensePlateNumber}**&quot;
   - Unregister: &quot; **unregister {username}**&quot;
